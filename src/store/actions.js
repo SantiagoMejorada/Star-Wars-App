@@ -1,6 +1,5 @@
 import urls from './../utils/urls'
 import axios from 'axios'
-import { isProxy, toRaw } from 'vue'
 export default {
   getPlanets({ commit }) {
     commit('setPlanetsLoading', true)
@@ -20,11 +19,6 @@ export default {
   },
   async getPeople({ commit }, urls) {
     commit('setPeopleLoading', true)
-    let rawUrls = urls
-
-    if (isProxy(urls)) {
-      rawUrls = toRaw(urls)
-    }
     const requests = []
     urls.forEach((url) => {
       requests.push(axios.get(url))
