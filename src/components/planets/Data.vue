@@ -13,7 +13,7 @@
         </v-data-table>
     </v-card>
     <v-dialog v-if="dialog" activator="parent" width="auto">
-        <v-card>
+        <v-card class="dialog-card">
             <People :planetResidents="currentResidents"/>
             <v-card-actions>
                 <v-btn color="primary" block @click="dialog = false">Close</v-btn>
@@ -72,5 +72,8 @@ export default {
     width: 10px;
     border-radius: 100px;
     background-color: #c1c1c1;
+}
+.dialog-card{
+    min-width: 300px;
 }
 </style>
