@@ -1,6 +1,6 @@
 
 # Star-wars-app
-  The App is using the [Star wars api](https://swapi.dev/).
+  The App is using the [Star wars api](https://swapi.py4e.com/).
 
   Main frameworks / library used in this App:
   
@@ -29,6 +29,7 @@ To run the app, use
 npm  run  dev
 
 ```
+
 ### How to use the app
 There are 3 main sections
 - Planets data : A table that allows to search and sort by the titles headers.
