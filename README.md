@@ -1,6 +1,7 @@
 
 # Star-wars-app
-  App using the [Star wars api](https://swapi.dev/)
+  The App is using the [Star wars api](https://swapi.dev/).
+
   Main frameworks / library used in this App:
   
 
