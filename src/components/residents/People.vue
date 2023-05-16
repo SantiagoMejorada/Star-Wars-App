@@ -3,7 +3,7 @@ import { default } from '../StarWars.vue';
     <v-container class="bg-red-darken-1">
         <h2 class="title">Residents</h2>
         <v-row v-if="peopleLoading">
-            <v-col cols="3" offset-md="6">
+            <v-col cols="3" offset-md="3">
                 <Loader />
             </v-col>
         </v-row>
