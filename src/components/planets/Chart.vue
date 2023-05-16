@@ -40,7 +40,7 @@ export default {
                     },
                 },
                 chart: {
-                    id: "zone-usage",
+                    id: "orbital-period",
                     stacked: true,
                 },
                 legend: {
