@@ -1,13 +1,13 @@
 
 # Star-wars-app
-  The App is using the [Star wars api](https://swapi.py4e.com/).
+  The App is using the [Star wars api](https://swapi.dev/).
 
   Main frameworks / library used in this App:
   
 
  - [Vue](https://vuejs.org/) 
  - [Vite](https://vitejs.dev/)
- -  [Vuex](https://vuex.vuejs.org/)
+ - [Vuex](https://vuex.vuejs.org/)
  - [Vuetify](https://vuetifyjs.com/en/)
  - [Axios](https://axios-http.com/)
  - [Apex Charts](https://apexcharts.com/)
